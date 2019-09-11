@@ -1,0 +1,83 @@
+.bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #263238;
+    z-index: -2;
+}
+
+.title {
+    font-family: 'Mate SC', serif;
+    font-size: 40px;
+    color: white
+}
+
+.subtitle {
+    font-family: 'Mate SC', serif;
+    font-size: 32px;
+    color: white
+}
+.w100{
+    width: 100%
+}
+.subsubtitle {
+    font-family: 'Mate SC', serif;
+    font-size: 24px;
+    color: white
+}
+.h10 {
+    height: 10px;
+}
+
+.nav-bar{
+    position: fixed; background-color: #263238aa; z-index: 2;
+}
+.center-text{
+    margin-left: auto; margin-right: auto; text-align: center
+}
+
+.no-margin{
+    width: 90%; margin-left: auto; margin-right: auto
+}
+.button {
+    /* Green */
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #263238;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #ffb300;
+}
+
+.button:hover {
+    background-color: #ffb300;
+    color: black;
+}
+
+.card1 {
+    border: 1px solid #ffb300;
+    padding: 10px;
+    margin: 10px;
+    color: #263238;
+}
+
+.txt {
+    color: white;
+}
+
+.line {
+    width: 90%;
+    background-color: #ffe54c;
+    height: 1px;
+    margin: 10px auto;
+}
